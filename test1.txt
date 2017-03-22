@@ -1,0 +1,13 @@
+http://blog.csdn.net/hcbbt/article/details/11651229/
+
+
+ssh-keygen -t rsa -C "373808590@qq.com" 
+ 
+ssh -T git@github.com
+git config --global user.name 'pansoft' 
+git config --global user.email '373808590@qq.com'
+
+git remote add origin git@github.com:AQCC/pansoft.git
+
+$ git add README  
+$ git commit -m "first commit" 
